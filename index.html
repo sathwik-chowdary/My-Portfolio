@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sathwik Madala | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header>
+    <nav>
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+      <ul class="navbar">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#Experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero-section">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+        <h1>Hi, I'm <span class="highlight">Sathwik Madala</span></h1>
+        <h2>I do Data <span class="auto-type"></span></h2>
+        <div class="hero-buttons">
+          <a href="MSathwik_Resume.pdf" download="Sathwik_Madala_Resume" class="btn primary-btn">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn secondary-btn">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+        <img src="profile.jpg" alt="Sathwik Madala">
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"><div class="wheel"></div></div>
+      <div class="scroll-arrow"><span></span><span></span></div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-header" data-aos="fade-up">
+      <h2>About Me</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="about-image">
+        <img src="profile.jpg" alt="About Me" height="400px">
+        <div class="image-overlay"></div>
+      </div>
+      <div class="about-content">
+        <p>I am Sathwik Madala, an aspiring data scientist and DevOps enthusiast with a passion for turning raw data into insights. Skilled in Python, Java, and web development, I thrive on learning and applying knowledge to real-world projects.</p>
+        <p>Currently pursuing B.Tech in CSE (Data Science) at Malla Reddy Engineering College. I've worked on G-code generation using LLMs, data visualization, and backend development with FastAPI and Docker.</p>
+        <p>I aim to build innovative solutions that solve real-world problems using technology and AI.</p>
+        <div class="about-stats">
+          <div class="stat"><h3><i class="fas fa-code"></i></h3><p>Python</p></div>
+          <div class="stat"><h3><i class="fas fa-laptop-code"></i></h3><p>Web Dev</p></div>
+          <div class="stat"><h3><i class="fas fa-cloud"></i></h3><p>DevOps</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="skill-category">
+        <h3>Languages & Libraries</h3>
+        <div class="skills-grid">
+          <div class="skill-item"><div class="skill-icon"><img src="python.png" alt="Python" /></div><h4>Python</h4><div class="skill-progress"><div class="progress" style="width: 90%"></div></div></div>
+          <div class="skill-item"><div class="skill-icon"><img src="java.png" alt="Java" /></div><h4>Java</h4><div class="skill-progress"><div class="progress" style="width: 85%"></div></div></div>
+          <div class="skill-item"><div class="skill-icon"><i class="fas fa-code"></i></div><h4>FastAPI</h4><div class="skill-progress"><div class="progress" style="width: 85%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Tools & Platforms</h3>
+        <div class="skills-grid">
+          <div class="skill-item"><div class="skill-icon"><i class="fab fa-docker"></i></div><h4>Docker</h4><div class="skill-progress"><div class="progress" style="width: 80%"></div></div></div>
+          <div class="skill-item"><div class="skill-icon"><i class="fab fa-jenkins"></i></div><h4>Jenkins</h4><div class="skill-progress"><div class="progress" style="width: 75%"></div></div></div>
+          <div class="skill-item"><div class="skill-icon"><i class="fab fa-aws"></i></div><h4>AWS</h4><div class="skill-progress"><div class="progress" style="width: 70%"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Experience" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <h2>Professional Experience</h2>
+    <div class="underline"></div>
+  </div>
+
+  <!-- DevOps Internship Experience -->
+<div class="project-card" data-aos="fade-up" data-aos-delay="200">
+  <div class="project-img">
+    <img src="exp-gcode.png" alt="G-code LLM Project">
+    <div class="project-overlay">
+      <div class="project-links">
+        <!-- You can link your GitHub or PDF here -->
+        <a href="https://github.com/sathwik-chowdary/LLM-GCode-Finetune" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+        <button class="project-link open-modal"><i class="fas fa-info-circle"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="project-info">
+    <h3>DevOps Intern – Grid Dynamics</h3>
+    <p>Fine-tuning a large language model to convert user prompts into G-code for 3D printing.</p>
+    <div class="project-tags">
+      <span>LLM</span>
+      <span>DevOps</span>
+      <span>G-code</span>
+      <span>STL</span>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>LLM Fine-Tuning for G-code</h2>
+      <ul>
+        <li>Built a fine-tuning dataset for LLMs to understand 3D printing instructions.</li>
+        <li>Translated user prompts like “Create a 20mm cube” into machine-level G-code commands.</li>
+        <li>Added explanatory annotations to G-code for better model understanding.</li>
+        <li>Enabled multi-modal comprehension by combining STL (geometry) and G-code (toolpaths).</li>
+        <li>Aligned mechanical operations with human instructions using instruction tuning techniques.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+     <!-- 🎥 Demo Video Card -->
+    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="project-img">
+        <video width="100%" height="240" controls style="border-radius: 12px;">
+          <source src="ForgeDemo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="project-info">
+        <h3>Craft Forge Demo</h3>
+        <p>This video demonstrates STL upload, validation, and G-code generation in my LLM-powered Craft Forge backend.</p>
+        <div class="project-tags">
+          <span>FastAPI</span>
+          <span>LLM</span>
+          <span>3D Printing</span>
+          <span>Microservices</span>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+  <section id="projects" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="underline"></div>
+  </div>
+  <div class="projects-container">
+
+
+    <!-- Find and Found Project -->
+    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="project-img">
+        <img src="findandfound.png" alt="Find and Found">
+        <div class="project-overlay">
+          <div class="project-links">
+            <a href="https://github.com/sathwik-chowdary/FindAndFound" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+            <button class="project-link open-modal"><i class="fas fa-info-circle"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="project-info">
+        <h3>Find and Found</h3>
+        <p>Lost & found system that connects item owners with finders to improve recovery and trust.</p>
+        <div class="project-tags"><span>Java</span><span>Web</span><span>SQL</span></div>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h2>Find and Found - Details</h2>
+          <ul>
+            <li>Users can report lost items online and connect with finders.</li>
+            <li>Promotes trust and honesty in item return process.</li>
+            <li>Has a sustainable model with payment system for future features.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Expense Tracker App -->
+    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+      <div class="project-img">
+        <img src="expensetracker.png" alt="Expense Tracker App">
+        <div class="project-overlay">
+          <div class="project-links">
+            <a href="https://github.com/sathwik-chowdary/ExpenseTracker" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+            <button class="project-link open-modal"><i class="fas fa-info-circle"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="project-info">
+        <h3>Expense Tracker App</h3>
+        <p>Java Swing-based personal finance tracker to manage expenses easily.</p>
+        <div class="project-tags"><span>Java</span><span>Swing</span><span>Finance</span></div>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h2>Expense Tracker App - Details</h2>
+          <ul>
+            <li>Java-based app to track and categorize daily expenses.</li>
+            <li>Simple UI using Java Swing for smooth experience.</li>
+            <li>Helps in personal budgeting and financial insights.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <section id="contact" class="section">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="contact-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div><h3>Email</h3><p><a href="mailto:sathwik.madala9@gmail.com">sathwik.madala9@gmail.com</a></p></div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/sathwikm99" target="_blank">linkedin.com/in/sathwikm99</a></p></div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <div><h3>GitHub</h3><p><a href="https://github.com/sathwik-chowdary" target="_blank">github.com/sathwik-chowdary</a></p></div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-hackerrank"></i>
+          <div><h3>HackerRank</h3><p><a href="https://www.hackerrank.com/profile/sathwikm99" target="_blank">hackerrank.com/sathwikm99</a></p></div>
+        </div>
+      </div>
+      <div class="resume-download">
+        <h3>Get My Resume</h3>
+        <a href="MSathwik_Resume.pdf" download="Sathwik_Madala_Resume" class="btn primary-btn">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-social">
+        <a href="mailto:sathwik.madala9@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/sathwikm99" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/sathwik-chowdary" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.hackerrank.com/profile/sathwikm99" target="_blank"><i class="fab fa-hackerrank"></i></a>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2025 Sathwik Madala. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ once: true });</script>
+  <script src="styles.js"></script>
+</body>
+</html>
